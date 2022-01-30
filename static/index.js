@@ -430,7 +430,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 4) return '拜托你很弱欸欸';
+        if (cps <= 4) return '拜托你很弱欸';
         if (cps <= 6) return '死了啦，都你害的啦';
         if (cps <= 8)  return '喜提王总冰毒2吨';
         if (cps <= 12) return '你很勇嘛';
